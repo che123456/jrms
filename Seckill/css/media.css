@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:980px){
+	body,html{
+		font-size: 62.5%;
+	}
+	.msxq .inner{
+		width: 100%;
+	}
+	.msxq .top_fixed h2{
+		line-height: 4rem;
+		padding-left: 2.5%;
+		font-size: 1.6rem;
+	}
+	.msxq .ms_gm{
+		position: absolute;
+	}
+	.msxq .gm_banner{
+		width: 40%;
+	}
+	.msxq .ms_btn{
+		width: 8rem;
+		height: 3rem;
+		background-size:80% auto;
+		right: 10%;
+		bottom: 15%;
+	}
+	.back_top{
+		display: none;
+	}
+	.msxq .xq_list li{
+		padding: 0;
+	}
+	.msxq .ms_gm{
+		width: 95%;
+		left: 1%;
+		top: 10px;
+		transform: none;
+	}
+	.msxq .ms_sj{	
+		top: 2rem;
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+	}
+	.ms_sj p{
+		font-size: 1rem;
+	}
+	.time{
+		font-size: 1.4rem;
+	}
+	.msxq .form .input_box1{
+		width: 32%;
+		margin-right: 1%;
+		position: relative;
+		margin-bottom: 24px;
+	}
+	.msxq .form .font{
+		font-size: 1rem;
+	}
+	.msxq .form  .select{
+		width: 32%;
+		margin-right: 1%;
+	}
+	.msxq .form  .ms_dz{
+		width: 98%;
+	}
+	.info_img{
+		width: 30%;
+		height: 10rem;
+		background: url(../images/ms_goods03.jpg) no-repeat center center;
+		background-size:cover ;
+		margin-right: 2.5%;
+	}
+	.info_text{
+		width: 65%;
+		margin-top: -1rem;
+	}
+	.ms_sm{
+		float: none;
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+	.sfk{
+		float: none;
+		text-align: left;
+		font-size: 1.5rem;
+	}
+	.msxq span.error{
+		font-size: 1rem;
+	}
+	.msxq .ms_ydz p{
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.msxq .tjdz{
+		width: 10rem;
+	}
+	.msxq .form .ms_tijiao,.msxq .btn_tj{
+		font-size: 1.5rem;
+		width: 6rem;
+		height: 3rem;
+		line-height: 3rem;
+	}
+@media screen and (max-width:480px){
+	
+
+}
