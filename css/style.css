@@ -1,0 +1,329 @@
+/***************** 重置CSS *********************/
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+body{font-family: "微软雅黑";}
+i,b{font-style: normal;}
+a,s{text-decoration:none;}
+img{vertical-align: top;width: 100%;}
+input,textarea,select,textarea,img{resize: none;outline: none;border:0 none;}
+input,select{*border-color:transparent; }
+input::-ms-clear{display:none;}
+select::-ms-expand { display: none; }
+textarea{overflow:auto}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6,b{font-weight: normal;}
+.clearfix:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1}
+.color_fff{color: #fff;}
+.color_yellow{color: #ffde5c;}
+.fl{float: left;}
+.fr{float: right;}
+.wrap{width: 100%;background: #ffe4bc;}
+/*首页*/
+
+/*表单*/
+.msxq .fn-vhid {
+	visibility: hidden;
+}
+
+.msxq .fn-tinput {
+	width: 240px;
+	height: 30px;
+	line-height: 30px\9;
+	border: transparent solid 1px;
+	background-color: #fff;
+}
+
+.msxq textarea {
+	border: #ddd solid 1px;
+	background-color: transparent;
+	width: 60%
+}
+
+.msxq .fn-tinput:focus,
+textarea:focus {
+	border-color: #c00;
+}
+
+.msxq .bl-form label {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-top: 6px;
+}
+
+.msxq .bl-form .controls label {
+	width: auto;
+}
+.msxq .controls{
+	position: relative;
+}
+.msxq .bl-form li {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.msxq em {
+	color: #C00;
+}
+
+.msxq span.error {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	color: #fff;
+	padding: 0 6px;
+	width: 100%;
+	z-index: 200;
+	font-size: 16px;
+	line-height: 22px;
+}
+/*商品详情页*/
+.msxq .inner{
+	width:1280px;
+	margin:0 auto;
+	position: relative;
+}
+.msxq .mengban{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.msxq .top_fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.msxq .back_top{
+	position: fixed;
+	width: 60px;
+	height: 85px;
+	background: url(../images/back_top_03.png) no-repeat center;
+	background-size: 100%;
+	right: 5%;
+	bottom: 50px;
+}
+.msxq .top_fixed h2{
+	line-height: 98px;
+	padding-left: 2.5%;
+}
+.msxq .top_fixed h2 i{
+	margin: 0 1%;
+}
+.msxq .top_fixed h2 span b{
+	font-size: 18px;
+}
+.msxq .top_fixed h2 a{
+	padding-left: 20px;
+	background: url(../images/left.png) no-repeat left center;		
+	background-size: 14% 100%;
+}
+.msxq .xq_list{
+	background: #dc5454;
+}
+.msxq .xq_list li{
+	padding: 4px 8px;
+}
+.msxq .ms_btn{
+	position: fixed;
+	bottom: 5%;
+	right: 20%;
+	width: 180px;
+	height: 60px;	
+	border-radius: 5px;
+}
+.msxq .ms_ljqg{
+	background: url(../images/ms_ljqg.png) no-repeat center center #DC5454;
+}
+.msxq .ms_yqg{
+	background: url(../images/ms_yqg.png) no-repeat center center #DC5454;
+}
+.msxq .ms_jjks{
+	background: url(../images/ms_jjks.png) no-repeat center center #DC5454;
+}
+.msxq .ms_gm{
+	width: 765px;
+	background: url(../images/gm_bj.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	padding: 0 1.5%;
+	
+}
+.msxq .ms_gm .ms_qdlbox{
+	position: relative;
+	padding-bottom: 60px;
+}
+.msxq .gm_banner{
+	width: 31.3%;
+	margin: 0 auto;
+	display: block;
+}
+.msxq .ms_sj{
+	position: absolute;
+	right: 1.5%;
+	font-size: 14px;
+	text-align: right;
+	top: 100px;
+}
+
+.msxq .time{
+	padding-left: 10px;
+	font-size: 18px;
+	background: url(../images/clock-.png) no-repeat 30px;
+	background-size:auto 100%;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+.msxq .form .font{
+	font-size: 16px;
+	color: #fff;
+	line-height: 38px;
+	margin-right: 1%;
+	width: 19%;
+}
+.controls {
+	height: 40px;
+}
+.msxq .form input,.msxq .form select,.msxq .form  p{
+	padding-left: 5%;
+	height: 38px;
+	line-height: 38px;
+	background: #fff;
+	width: 95%;
+	border: 1px solid transparent;
+}
+.msxq .form  p{
+	padding: 0;
+	width: 100%;
+}
+.msxq .form select{
+	position: absolute;
+	z-index: 2;
+	opacity: 0;
+}
+.msxq .form .input_box{
+	width: 19%;
+	margin-right: 1%;
+	position: relative;
+	margin-bottom: 24px;
+}
+.msxq .form  .none{
+	margin-right: 0;
+}
+.msxq .form .ms_tijiao,.msxq .btn_tj{
+	width: 80px;
+	line-height: 40px;
+	background: #faecea;
+	color: #bc3e24;
+	border-radius: 5px;
+	text-align: center;
+	padding: 0;
+	font-size: 18px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+}
+.input_box p{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.msxq .form .ms_dz{
+	width: 79%;
+	margin-right: 0;
+}
+.msxq .form .ms_dz input{
+	padding-left:2%;
+	width: 98%;
+}
+.input_tel{
+	width: 25%;
+}
+.msxq .info{
+	border: 1px solid #f8dfd3;
+	border-left: none;
+	border-right: none;
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+.info_img{
+	width: 148px;
+	height: 148px;
+	background: url(../images/ms_goods03.jpg) no-repeat center center;
+	background-size:cover ;
+	margin-right: 2.5%;
+}
+.info_text{
+	width: 78%;
+}
+.info_text p{
+	color: #fff;
+	line-height: 35px;
+}
+.ms_sm ,.sfk{
+	width: 50%;
+	line-height: 24px;
+	color: #fff;
+}
+.sfk{
+	text-align: right;
+	font-size: 24px;
+}
+.msxq .ms_ydz p{
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.msxq .tjdz{
+	display: block;
+	width: 12%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto 10px;
+	border: 1px solid #ddd;
+	padding:0 3%;
+	border-radius: 5px;
+	background: url(../images/jia.png) no-repeat 5px center ;
+}
+.ms_ewm {
+	padding-top: 100px;
+	height: 540px;
+}
+.ms_ewm .ewm_font{
+	text-align: center;
+	color: #fff;
+}
+.ms_ewm .ewm_sj{
+	width:200px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.ms_ewm .ewm_sj .time{
+	background-position: 40px;
+}
+.ewm{
+	width: 240px;
+	height: 240px;
+	margin: 0 auto;
+	padding: 5px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+.smcg{
+	width: 159px;
+	margin:150px auto 0;
+	display: none;
+}

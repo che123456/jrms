@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>今日秒杀</title>
+		<link rel="icon" href="images/favicon_64.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/media.css"/>
+		<style type="text/css">
+
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap msxq">
+			<div class="top_fixed">
+				<div class="inner clearfix">
+					<h2 class="color_fff">
+						<a href="index.html" class="color_fff">返回首页</a><i>|</i>花王高丝面膜<span class="color_yellow"><b>￥</b>9.9</span></h2>
+				</div>
+			</div>
+			<ul class="xq_list inner">
+				<li><img src="images/ms_1.jpg"/></li>
+				<li><img src="images/ms_2.jpg"/></li>
+				<li><img src="images/ms_3.jpg"/></li>
+			</ul>		
+			<!--抢购按钮  立即抢购 ms_ljqg  抢光了ms_yqg 即将开始 ms_jjks-->
+			<a class="ms_btn ms_ljqg" href="javascript:;"></a>
+			<div class="mengban"></div>
+			<a class="back_top" href="javascript:window.scrollTo( 0, 0 );"></a>	
+			<!--订单详情-->
+			<div class="ms_gm">
+				<div class="ms_qdlbox" style="display: block;">
+					<img src="images/gm_qdl.png" class="gm_banner" />
+					<div class="ms_sj">
+						<p class="time color_yellow">19分01秒</p>
+						<p class="color_fff">请在20分钟内完成支付</p>
+					</div>
+					<form action="" method="post" class="bl-form bl-formhor form clearfix" id="jsForm" style="display: block;">				
+						<span class="fl font input_box1">请完善收货信息:</span>
+						  <div class="controls fl input_box input_box1">
+		                   <input id="baseName" class="fn-tinput ms_name" type="text" name="gsname" placeholder="收件人" required data-msg-required="请输入您的姓名" minlength="2" maxlength="6" data-msg-maxlength="最多输入6个字符" data-msg-minlength="至少输入2个字符" />
+		                </div>
+		                <div class="controls fl input_box input_tel input_box1">
+		                    <input id="baseMobile" type="text" value="" name="tel" class="fn-tinput ms_tel" placeholder="联系方式" required data-rule-mobile="true" data-msg-required="请输入联系电话"  maxlength="11" data-msg-maxlength="最多输入11个字符"data-msg-mobile="请输入正确格式" />
+		                </div>
+		                <div class="controls fl input_box select" >							
+							<select name="select1" required data-msg-required="请选择省份"></select>
+		                    <p class="s_province">
+								<span class="quyu">请选择</span>
+								<span class="sanjiao sj02"></span>
+							</p>
+			                    
+		                </div>
+		                <div class="controls fl input_box none select" >							
+								<select name="select2" required data-msg-required="请选择城市"></select>
+		                    <p class="s_province">
+								<span class="quyu">请选择</span>
+								<span class="sanjiao sj02"></span>
+							</p>
+			                    
+		                </div>
+		                <div class="controls fl input_box select" >							
+								<select name="select3" required data-msg-required="请选择区域"></select>
+		                    <p class="s_province">
+								<span class="quyu">请选择</span>
+								<span class="sanjiao sj02"></span>
+							</p>
+			                    
+		                </div>
+		                <div class="controls fl input_box ms_dz">
+                   			<input id="merchantName" class="fn-tinput" type="text" name="ShopNam" placeholder="详细地址" required data-msg-required="请输入您的详细地址" minlength="4" maxlength="40" data-msg-maxlength="最多输入40个字符" data-msg-minlength="至少输入4个字符" />	
+                   		</div>
+						<!--提交按钮-->
+						<input class="mui-btn mui-btn-danger ms_tijiao" id="submit_btn" type="submit" value="提交"/>
+					</form>
+					<!--有地址显示box-->
+					<div class="ms_ydz" style="display: none;">
+						<p>确认收货信息：风车车  13223156484   重庆市渝北区星光大道62号</p>
+						<!--添加新地址按钮-->
+						<a href="javascript:;" class="tjdz">使用新地址</a>
+						<!--有地址提交按钮-->
+						<a href="javascript:;" class="btn_tj">提交</a>
+					</div>
+					<div class="info clearfix">
+						<div class="info_img fl">
+							
+						</div>
+						<div class="fl info_text">
+							<p class="clearfix">
+								<span class="fl">商品:</span>
+								<span class="fr">花王眼罩一盒/14片入</span>
+							</p>
+							<p class="clearfix">
+								<span class="fl">价格:</span>
+								<span class="fr">￥1.00</span>
+							</p>
+							<p class="clearfix">
+								<span class="fl">运费:</span>
+								<span class="fr">￥6.00</span>
+							</p>
+							<p class="clearfix heji">
+								<span class="fl">合计:</span>
+								<span class="fr">￥7.00</span>
+							</p>
+						</div>					
+					</div>
+					<div class="clearfix">
+						<p class="ms_sm fl">秒杀订单不支持其他积分、优惠券等支付方式，完成支付后，即为秒杀成功，若支付未完成或支付不成功即为秒杀失败。</p>			
+						<p class="sfk fr">实付款￥1.00</p>
+					</div>
+
+				</div>
+				<div class="ms_ewm" style="display: none;">
+					<div class="ewm_sj">
+						<p class="time color_yellow">19分01秒</p>
+						<p class="color_fff">请在20分钟内完成支付</p>
+					</div>
+					<!--二维码-->
+					<div class="ewm_box" style="display: none;">
+						<div class="ewm">
+							<img src="images/ms_goods03.jpg" />
+						</div>
+						<p class="ewm_font">打开微信客户端，找到扫一扫，点击扫码支付</p>
+					</div>
+					<div class="smcg">
+						<img src="images/smcg.png"/>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>	
+	</body>
+	<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#submit_btn").click(function(){
+			$("#jsForm").validate({				
+				submitHandler: function() {
+					//验证通过后 的js代码写在这里
+					$(".orderInfo").hide();
+					$(".smfk").show();
+					$(".zfcg").show();
+					$(".ms_gm").css("width", "750px");
+				}
+			})
+		})
+	</script>
+		
+
+</html>
