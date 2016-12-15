@@ -41,14 +41,15 @@
 	}
 	.msxq .ms_sj{	
 		top: 2rem;
-		font-size: 1.4rem;
+		font-size: 1.6rem;
 		line-height: 1.8rem;
 	}
 	.ms_sj p{
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}
 	.time{
 		font-size: 1.4rem;
+		background: url(../images/clock-.png) no-repeat 0px;
 	}
 	.msxq .form .input_box1{
 		width: 32%;
@@ -57,7 +58,7 @@
 		margin-bottom: 24px;
 	}
 	.msxq .form .font{
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}
 	.msxq .form  .select{
 		width: 32%;
@@ -85,13 +86,13 @@
 	.sfk{
 		float: none;
 		text-align: left;
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.msxq span.error{
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}
 	.msxq .ms_ydz p{
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		line-height: 2rem;
 	}
 	.msxq .tjdz{
