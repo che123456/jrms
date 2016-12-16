@@ -32,7 +32,7 @@
 			<a class="back_top" href="javascript:window.scrollTo( 0, 0 );"></a>	
 			<!--订单详情-->
 			<div class="ms_gm">
-				<div class="ms_qdlbox" style="display: block;">
+				<div class="ms_qdlbox" style="display: none;">
 					<img src="images/gm_qdl.png" class="gm_banner" />
 					<div class="ms_sj">
 						<p class="time color_yellow">19分01秒</p>
@@ -113,22 +113,47 @@
 					</div>
 
 				</div>
+				<!--二维码box-->
 				<div class="ms_ewm" style="display: none;">
 					<div class="ewm_sj">
 						<p class="time color_yellow">19分01秒</p>
 						<p class="color_fff">请在20分钟内完成支付</p>
 					</div>
 					<!--二维码-->
-					<div class="ewm_box" style="display: none;">
+					<div class="ewm_box" style="display: block;">
 						<div class="ewm">
 							<img src="images/ms_goods03.jpg" />
 						</div>
 						<p class="ewm_font">打开微信客户端，找到扫一扫，点击扫码支付</p>
 					</div>
+					<!--扫码成功-->
 					<div class="smcg">
 						<img src="images/smcg.png"/>
+					</div>					
+				</div>
+				<!--已抢光/没抢到-->
+				<div class="gm_yqg" style="display:none;">
+					<div class="img_box">
+						<!--已抢光-->
+						<img src="images/gm_yqg.png" style="display: none;" />
+						<!--没抢到-->
+						<img src="images/gm_mqd.png" />
 					</div>
-					
+					<p>很遗憾，您没有抢到商品，快去抢购其他商品</p>
+					<a href="index.html" class="btn_gm">去抢购</a>
+				</div>
+				
+				<!--支付失败-->
+				<div class="gm_zf" style="display:none;">
+					<h2 class="zf_title">支付失败</h2>
+					<p class="ewm_font">请在20分钟内完成支付，剩余支付时间：<span class="color_yellow">19分01秒</span></p>
+					<a href="javascript:" class="btn_gm">请重新支付</a>
+				</div>
+				<!--支付失败-->
+				<div class="gm_zf">
+					<h2 class="zf_title">支付成功</h2>
+					<p class="ewm_font">恭喜您成功抢到商品，请到我的订单查看</p>
+					<a href="myOrder.html" class="btn_gm">查看订单</a>
 				</div>
 			</div>
 			

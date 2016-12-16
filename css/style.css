@@ -297,7 +297,7 @@ textarea:focus {
 	border-radius: 5px;
 	background: url(../images/jia.png) no-repeat 5px center ;
 }
-.ms_ewm {
+.ms_ewm,.gm_yqg ,.gm_zf{
 	padding-top: 100px;
 	height: 540px;
 }
@@ -326,4 +326,41 @@ textarea:focus {
 	width: 159px;
 	margin:150px auto 0;
 	display: none;
+}
+.gm_yqg .img_box{
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+.gm_zf{
+	padding-top: 150px;
+	height: 350px;
+}
+.gm_yqg p,.gm_zf p{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.btn_gm{
+	display: block;
+	width: 118px;
+	height: 38px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 38px;
+	text-align: center;
+}
+.gm_zf .zf_title{
+	padding-left:10px;
+	width: 150px;
+	font-size: 24px;
+	color: #ffd87a;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background: url(../images/shibai.png) no-repeat left center;
 }

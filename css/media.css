@@ -36,8 +36,8 @@
 	.msxq .ms_gm{
 		width: 95%;
 		left: 1%;
-		top: 10px;
-		transform: none;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 	.msxq .ms_sj{	
 		top: 6rem;
@@ -110,6 +110,22 @@
 		width: 6rem;
 		height: 3rem;
 		line-height: 3rem;
+	}
+	.msxq .gm_yqg .img_box{
+		width: 50%;
+		
+	}
+	.gm_yqg,.gm_zfsb{
+		height: 400px;
+	}
+	.gm_zfsb .zf_box{
+		padding: 5rem;
+	}
+	.msxq .gm_yqg p,.gm_zf p{
+		font-size: 1.4rem;
+	}
+	.msxq .btn_gm{
+		font-size: 1.4rem;
 	}
 @media screen and (max-width:480px){
 	
