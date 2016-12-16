@@ -50,6 +50,8 @@
 	.msxq .time{
 		font-size: 1.4rem;
 		background: url(../images/clock-.png) no-repeat 0px;
+		padding-left: 2rem;
+		text-align: left;
 	}
 	.msxq .form .input_box1{
 		width: 32%;
@@ -83,6 +85,7 @@
 		float: none;
 		width: 100%;
 		padding-bottom: 1rem;
+		font-size: 1.4rem;
 	}
 	.quyu{
 		font-size: 1.4rem;
