@@ -47,7 +47,7 @@
 	.ms_sj p{
 		font-size: 1.4rem;
 	}
-	.time{
+	.msxq .time{
 		font-size: 1.4rem;
 		background: url(../images/clock-.png) no-repeat 0px;
 	}
@@ -77,12 +77,17 @@
 	.info_text{
 		width: 65%;
 		margin-top: -1rem;
+		font-size: 1.4rem;
 	}
 	.ms_sm{
 		float: none;
 		width: 100%;
 		padding-bottom: 1rem;
 	}
+	.quyu{
+		font-size: 1.4rem;
+	}
+		
 	.sfk{
 		float: none;
 		text-align: left;
