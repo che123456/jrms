@@ -49,9 +49,7 @@
 	}
 	.msxq .time{
 		font-size: 1.4rem;
-		background: url(../images/clock-.png) no-repeat 0px;
-		padding-left: 2.5rem;
-		text-align: left;
+		background: url(../images/clock-.png) no-repeat 5rem;
 		background-size:auto 100%;
 	}
 	.msxq .form .input_box1{
