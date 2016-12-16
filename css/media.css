@@ -50,8 +50,9 @@
 	.msxq .time{
 		font-size: 1.4rem;
 		background: url(../images/clock-.png) no-repeat 0px;
-		padding-left: 2rem;
+		padding-left: 2.5rem;
 		text-align: left;
+		background-size:auto 100%;
 	}
 	.msxq .form .input_box1{
 		width: 32%;
