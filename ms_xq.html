@@ -32,13 +32,13 @@
 			<a class="back_top" href="javascript:window.scrollTo( 0, 0 );"></a>	
 			<!--订单详情-->
 			<div class="ms_gm">
-				<div class="ms_qdlbox" style="display: none;">
+				<div class="ms_qdlbox" style="display: block;">
 					<img src="images/gm_qdl.png" class="gm_banner" />
 					<div class="ms_sj">
 						<p class="time color_yellow">19分01秒</p>
 						<p class="color_fff">请在20分钟内完成支付</p>
 					</div>
-					<form action="" method="post" class="bl-form bl-formhor form clearfix" id="jsForm" style="display: block;">				
+					<form action="" method="post" class="bl-form bl-formhor form clearfix" id="jsForm" style="display: none;">				
 						<span class="fl font input_box1">请完善收货信息:</span>
 						  <div class="controls fl input_box input_box1">
 		                   <input id="baseName" class="fn-tinput ms_name" type="text" name="gsname" placeholder="收件人" required data-msg-required="请输入您的姓名" minlength="2" maxlength="6" data-msg-maxlength="最多输入6个字符" data-msg-minlength="至少输入2个字符" />
@@ -77,7 +77,7 @@
 						<input class="mui-btn mui-btn-danger ms_tijiao" id="submit_btn" type="submit" value="提交"/>
 					</form>
 					<!--有地址显示box-->
-					<div class="ms_ydz" style="display: none;">
+					<div class="ms_ydz" style="display: block;">
 						<p>确认收货信息：风车车  13223156484   重庆市渝北区星光大道62号</p>
 						<!--添加新地址按钮-->
 						<a href="javascript:;" class="tjdz">使用新地址</a>
@@ -150,7 +150,7 @@
 					<a href="javascript:" class="btn_gm">请重新支付</a>
 				</div>
 				<!--支付失败-->
-				<div class="gm_zf">
+				<div class="gm_zf" style="display:none;">
 					<h2 class="zf_title">支付成功</h2>
 					<p class="ewm_font">恭喜您成功抢到商品，请到我的订单查看</p>
 					<a href="myOrder.html" class="btn_gm">查看订单</a>
